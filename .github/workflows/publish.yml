@@ -28,4 +28,5 @@ jobs:
         with:
           context: .
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/github_actions_docker_pc:latest
+          tags: ghcr.io/andresr0910x/github_actions_docker_pc:latest
+
