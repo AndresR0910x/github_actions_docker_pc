@@ -1,0 +1,15 @@
+{
+  "name": "imagen-bn-pc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node app.js"
+  },
+  "keywords": [],
+  "author": "Andres Rodriguez",
+  "license": "MIT",
+  "dependencies": {
+    "jimp": "^1.6.0"
+  }
+}

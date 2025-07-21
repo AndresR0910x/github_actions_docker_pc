@@ -1,0 +1,16 @@
+const Jimp = require("jimp").Jimp;
+
+const inputPath = './input.jpeg';
+const outputPath = './output.jpg';
+
+Jimp.read(inputPath)
+  .then(image => {
+    return image
+      .greyscale()
+      .write(outputPath, () => {
+        console.log(`Imagen convertida a blanco y negro y guardada como ${outputPath}`);
+      });
+  })
+  .catch(err => {
+    console.error('Error al procesar la imagen:', err);
+  });
